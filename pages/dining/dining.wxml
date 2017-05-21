@@ -1,0 +1,38 @@
+<!--pages/dining/dining.wxml-->
+<view class="container">
+    <view class="header">
+        <text>文采园 · 一饭</text>
+    </view>
+    <view class="dishes">
+        <view class="dish">
+            <navigator url="/pages/dish/dish">
+                <view class="dish-image">
+                    <image src="/images/dish2.png" mode="aspectFill"></image>
+                </view>
+                <view class="price">
+                    <text>10</text>
+                </view>
+                <view class="info">
+                    <text class="name">黑椒鸡扒饭\n</text>
+                    <text class="location">三饭二楼\n</text>
+                    <text class="sales">日售123\n</text>
+                </view>
+            </navigator>
+        </view>
+        <view class="dish">
+            <navigator url="/pages/dish/dish">
+                <view class="dish-image">
+                    <image src="/images/dish1.png" mode="aspectFill"></image>
+                </view>
+                <view class="price">
+                    <text>8</text>
+                </view>
+                <view class="info">
+                    <text class="name">烤肉拌饭\n</text>
+                    <text class="location">三饭二楼\n</text>
+                    <text class="sales">日售23\n</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,44 @@
+{
+	"pages": [
+		"pages/qbd/qbd",
+		"pages/index/index",
+		"pages/qbd/qbd",
+		"pages/xbd/xbd",
+		"pages/me/me",
+		"pages/dining/dining",
+		"pages/dish/dish",
+		"pages/location/location",
+		"pages/addlocation/addlocation",
+		"pages/item-status/item-status",
+		"pages/item-info/item-info"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Dining",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#fff76c",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"position": "bottom",
+		"list": [{
+			"pagePath": "pages/qbd/qbd",
+			"text": "求帮带",
+			"iconPath": "images/bar-qbd.png",
+			"selectedIconPath": "images/bar-qbd-selected.png"
+		}, {
+			"pagePath": "pages/xbd/xbd",
+			"text": "想帮带",
+			"iconPath": "images/bar-xbd.png",
+			"selectedIconPath": "images/bar-xbd-selected.png"
+		}, {
+			"pagePath": "pages/me/me",
+			"text": "我的",
+			"iconPath": "images/bar-personal.png",
+			"selectedIconPath": "images/bar-personal-selected.png"
+		}]
+	}
+}

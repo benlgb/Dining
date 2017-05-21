@@ -1,0 +1,27 @@
+<!--pages/location/location.wxml-->
+<view class="container">
+    <view class="block location">
+        <navigator url="/pages/dish/dish">
+            <text>李理理 12345678912\n</text>
+            <text>广东外语外贸大学南苑13栋234室</text>
+        </navigator>
+    </view>
+    <view class="block location">
+        <navigator url="/pages/dish/dish">
+            <text>李理理 12345678912\n</text>
+            <text>广东外语外贸大学南苑13栋234室</text>
+        </navigator>
+    </view>
+    <view class="block location">
+        <navigator url="/pages/dish/dish">
+            <text>李理理 12345678912\n</text>
+            <text>广东外语外贸大学南苑13栋234室</text>
+        </navigator>
+    </view>
+    <view class="block location">
+        <navigator url="/pages/addlocation/addlocation">
+            <image src="/images/add.png" mode="widthFix"></image>
+            <text>新增收货地址</text>
+        </navigator>
+    </view>
+</view>

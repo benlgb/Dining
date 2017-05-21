@@ -1,0 +1,57 @@
+<!--pages/item-info/item-info.wxml-->
+<view class="container">
+    <view class="tab">
+        <navigator url="/pages/item-status/item-status">订单状态</navigator>
+        <text class="on">订单详情</text>
+    </view>
+    <view class="info">
+        <view class="block">
+            <text>李理理 12345678912\n</text>
+            <text>广东外语外贸大学南苑13栋234室</text>
+        </view>
+        <view class="block">
+            <view class="line">
+                <text>黑椒鸡扒饭</text>
+                <text class="price">10</text>
+            </view>
+            <view class="line">
+                <text>份数</text>
+                <text class="count">1</text>
+            </view>
+            <view class="line">
+                <text>小费</text>
+                <text class="tips">1</text>
+            </view>
+        </view>
+        <view class="block">
+            <text>总计</text>
+            <text class="pay">11</text>
+        </view>
+        <view class="block">
+            <text>备注 :\n</text>
+            <text class="remark">不加辣</text>
+        </view>
+        <view class="block">
+            <view class="line">
+                <text class="puren">发布人</text>
+                <text>李理理</text>
+            </view>
+            <view class="line">
+                <text class="puren">发布时间</text>
+                <text>13:32</text>
+            </view>
+            <view class="line">
+                <text class="puren">实际送达时间</text>
+                <text>13:32</text>
+            </view>
+            <view class="line">
+                <text class="puren">完成时间</text>
+                <text>13:32</text>
+            </view>
+            <view class="line">
+                <text class="puren">订单编号</text>
+                <text>2333333</text>
+            </view>
+        </view>
+    </view>
+</view>

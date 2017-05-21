@@ -1,0 +1,38 @@
+<!--pages/item-status/item-status.wxml-->
+<view class="container">
+    <view class="tab">
+        <text class="on">订单状态</text>
+        <navigator url="/pages/item-info/item-info">订单详情</navigator>
+    </view>
+    <view class="status">
+        <view class="step">
+            <view class="line"></view>
+            <view class="info">
+                <text class="datetime">1月10日 11:29</text>
+                <text class="tips">成功发布\n</text>
+                <text class="description">付款20分钟内无人接即退款</text>
+            </view>
+        </view>
+        <view class="step">
+            <view class="line"></view>
+            <view class="info">
+                <text class="datetime">1月10日 11:29</text>
+                <text class="tips">接单成功\n</text>
+                <text class="description">您的订单已被接收！</text>
+            </view>
+            <view class="personinfo">
+                <image src="/images/info-bg.png" mode="widthFix"></image>
+                <text class="infoheader">接单同学信息</text>
+                <text class="person">李女士\n12345678912</text>
+            </view>
+        </view>
+        <view class="step">
+            <view class="line last"></view>
+            <view class="info">
+                <text class="datetime">1月10日 11:29</text>
+                <text class="tips">接单同学已确认送到\n</text>
+                <text class="description">如果您已收到，请确认收到。</text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,107 @@
+/* pages/item-status/item-status.wxss */
+.container .tab {
+    border-bottom: 1rpx solid #f7f7f7;
+}
+
+.container .tab navigator,
+.container .tab text {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    color: #cccccc;
+}
+
+.container .tab .on {
+    color: #fff76c;
+    position: relative;
+}
+
+.container .tab .on::before {
+    content: "";
+    display: block;
+    width: 160rpx;
+    height: 4rpx;
+    background-color: #fff76c;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -80rpx;
+}
+
+.container .status {
+    margin-top: 40rpx;
+}
+
+.container .status .step {
+    position: relative;
+    padding: 0 40rpx 80rpx 120rpx;
+}
+
+.container .step .line {
+    width: 4rpx;
+    height: 100%;
+    background-color: #fff76c;
+    position: absolute;
+    top: 18rpx;
+    left: 70rpx;
+}
+
+.container .step .line.last {
+    background-color: transparent;
+}
+
+.container .step .line::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10rpx;
+    width: 24rpx;
+    height: 24rpx;
+    border-radius: 12rpx;
+    background-color: #fff76c;
+}
+
+.container .step .tips {
+    color: #353535;
+    font-size: 40rpx;
+}
+
+.container .step .description {
+    color: #999999;
+    font-size: 30rpx;
+}
+
+.container .step .datetime {
+    color: #666666;
+    float: right;
+    font-size: 30rpx;
+    line-height: 70rpx;
+}
+
+.container .step image {
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
+    width: 580rpx;
+}
+
+.container .step .personinfo {
+    position: relative;
+}
+
+.container .step .infoheader {
+    position: absolute;
+    top: 56rpx;
+    left: 24rpx;
+    color: white;
+    font-size: 30rpx;
+}
+
+.container .step .person {
+    color: white;
+    position: absolute;
+    top: 100rpx;
+    left: 280rpx;
+    line-height: 60rpx;
+}

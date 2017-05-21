@@ -1,0 +1,6 @@
+/**app.wxss**/
+.container {
+	height: 100%;
+	border-top: 1rpx solid #ccc;
+	font-family: "Microsoft YaHei";
+}

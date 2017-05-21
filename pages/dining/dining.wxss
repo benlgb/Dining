@@ -1,0 +1,54 @@
+/* pages/dining/dining.wxss */
+.header {
+    text-align: center;
+    line-height: 100rpx;
+}
+
+.dishes {
+    border: 1rpx solid #dddddd;
+    border-width: 1rpx 0;
+    margin-bottom: 50rpx;
+}
+
+.dishes .dish {
+    margin: 20rpx;
+    overflow: hidden;
+    height: 260rpx;
+}
+
+.dish .dish-image {
+    float: left;
+    font-size: 0;
+    margin-right: 20rpx;
+}
+
+.dish .dish-image image {
+    width: 300rpx;
+    height: 260rpx;
+}
+
+.dish .info .name {
+    color: #353535;
+    font-size: 50rpx;
+    line-height: 100rpx;
+}
+
+.dish .info .location {
+    font-size: 36rpx;
+    color: #999999;
+    line-height: 100rpx;
+}
+
+.dish .info .sales {
+    font-size: 36rpx;
+    margin-top: 100rpx;
+}
+
+.dish .price {
+    float: right;
+    line-height: 100rpx;
+}
+
+.dish .price::before {
+    content: "￥";
+}

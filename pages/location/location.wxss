@@ -1,0 +1,40 @@
+/* pages/location/location.wxss */
+.container {
+    background-color: #f7f7f7;
+    color: #353535;
+    font-size: 30rpx;
+    line-height: 60rpx;
+}
+
+.container .block {
+    background-color: white;
+    margin: 16rpx 0;
+    padding: 20rpx 30rpx;
+    box-shadow: 0 0 5rpx #dddddd;
+}
+
+.container .location {
+    position: relative;
+}
+
+.container .location::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 30rpx;
+    top: 50%;
+    height: 60rpx;
+    width: 26rpx;
+    margin-top: -30rpx;
+    background-image: url(/images/next.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container .location image {
+    position: relative;
+    top: 3rpx;
+    width: 30rpx;
+    margin-right: 10rpx;
+}

@@ -1,0 +1,94 @@
+/* pages/dish/dish.wxss */
+.container {
+    background-color: #f7f7f7;
+    color: #353535;
+    font-size: 30rpx;
+    line-height: 60rpx;
+}
+
+.container .block {
+    background-color: white;
+    margin: 16rpx 0;
+    padding: 20rpx 30rpx;
+    box-shadow: 0 0 5rpx #dddddd;
+}
+
+.container .location {
+    position: relative;
+}
+
+.container .location::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 30rpx;
+    top: 50%;
+    height: 60rpx;
+    width: 26rpx;
+    margin-top: -30rpx;
+    background-image: url(/images/next.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container .dish-right {
+    float: right;
+}
+
+.container .count {
+    border-top: 1rpx solid #eeeeee;
+}
+
+.container .dish-price::before {
+    content: "￥";
+}
+
+.container .dish-count,
+.container .dish-pay {
+    color: #fff76c;
+}
+
+.container .dish-count::after,
+.container .dish-static::after {
+    content: "份";
+}
+
+.container .dish-pay::after {
+    content: "元";
+}
+
+.container .datetime .time {
+    float: right;
+}
+
+.container .remark textarea {
+    border: 3rpx solid #eeeeee;
+    width: 644rpx;
+    min-height: 160rpx;
+    padding: 20rpx;
+}
+
+.container .remark .tips text {
+    display: inline-block;
+    border: 1px solid #353535;
+    margin: 20rpx 10rpx 0;
+    line-height: 50rpx;
+    border-radius: 25rpx;
+    padding: 0rpx 20rpx;
+}
+
+.container .remark .tips text.on {
+    border-color: #fff76c;
+    color: #fff76c;
+}
+
+.container .remark button {
+    background-color: #fff76c;
+    color: white;
+    border: none;
+    outline: none;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-top: 30rpx;
+}

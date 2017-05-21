@@ -1,0 +1,44 @@
+<!--pages/dish/dish.wxml-->
+<view class="container">
+    <view class="block location">
+        <navigator url="/pages/location/location" hover-class="none">
+            <text>李理理 12345678912\n</text>
+            <text>广东外语外贸大学南苑13栋234室</text>
+        </navigator>
+    </view>
+    <view class="block dishes">
+        <view class="dish">
+            <text>黑椒鸡扒饭</text>
+            <text class="dish-right dish-price">10</text>
+        </view>
+        <view class="dish">
+            <text>份数</text>
+            <text class="dish-right dish-count">1</text>
+        </view>
+        <view class="dish">
+            <text>小费</text>
+            <text class="dish-right dish-pay">1</text>
+        </view>
+        <view class="dish count">
+            <text>总计</text>
+            <text class="dish-right dish-static">11</text>
+        </view>
+    </view>
+    <view class="block datetime">
+        <text>送达时间</text>
+        <picker class="time" mode="time" value="{{time}}" start="{{start}}" end="{{end}}" bindchange="timeChange">
+            {{time}}
+        </picker>
+    </view>
+    <view class="block remark">
+        <text>备注 :</text>
+        <textarea auto-height />
+        <view class="tips">
+            <text class="on">多加辣！</text>
+            <text>多一双筷子</text>
+        </view>
+        <view type="primary" class="submit">
+            <button bindtap="submit">提交</button>
+        </view>
+    </view>
+</view>

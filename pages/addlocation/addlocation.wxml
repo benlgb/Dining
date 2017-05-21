@@ -1,0 +1,26 @@
+<!--pages/addlocation/addlocation.wxml-->
+<view class="container">
+    <view class="block">
+        <view class="line">
+            <text>收货人</text>
+            <input type="text" placeholder="姓名"/>
+        </view>
+        <view class="line">
+            <text>联系电话</text>
+            <input type="number" placeholder="手机号码" />
+        </view>
+        <view class="line">
+            <text>选择学校</text>
+            <picker mode="selector" value="{{schoolIndex}}" range="{{schools}}" bindchange="changeSchool">
+                {{schools[schoolIndex]}}
+            </picker>
+        </view>
+        <view class="line">
+            <text>详细地址</text>
+            <input type="text" placeholder="宿舍栋数及门牌信息"/>
+        </view>
+    </view>
+    <view class="finish">
+        <button plain bindtap="finish">完成</button>
+    </view>
+</view>

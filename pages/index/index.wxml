@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="picture">
+		<navigator url="/pages/qbd/qbd" hover-class="none" open-type="switchTab">
+			<image src="/images/index-qbd.png" mode="widthFix"></image>
+		</navigator>
+	</view>
+	<view class="picture">
+		<navigator url="/pages/xbd/xbd" hover-class="none" open-type="switchTab">
+			<image src="/images/index-xbd.png" mode="widthFix"></image>
+		</navigator>
+	</view>
+</view>

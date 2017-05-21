@@ -1,0 +1,9 @@
+<!--pages/qbd/qbd.wxml-->
+<view class="container">
+    <view class="dining" wx:for="{{dinings}}" wx:key="id">
+        <navigator url="/pages/dining/dining?id={{item.id}}&school={{school}}">
+            <image src="{{item.imgurl}}" mode="widthFix"></image>
+            <text>{{item.name}}</text>
+        </navigator>
+    </view>
+</view>

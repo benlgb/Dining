@@ -1,0 +1,50 @@
+/* pages/addlocation/addlocation.wxss */
+.container {
+    background-color: #f7f7f7;
+    color: #353535;
+    font-size: 30rpx;
+    line-height: 80rpx;
+}
+
+.container .block {
+    background-color: white;
+    margin: 16rpx 0;
+    padding: 20rpx 30rpx;
+    box-shadow: 0 0 5rpx #dddddd;
+    overflow: hidden;
+}
+
+.container .block .line {
+    overflow: hidden;
+    height: 80rpx;
+    border-bottom: 1rpx solid #f7f7f7;
+}
+
+.container .block text {
+    float: left;
+    width: 180rpx;
+}
+
+.container .block input,
+.container .block picker {
+    float: left;
+    position: relative;
+}
+
+.container .block input {
+    top: 15rpx;
+}
+
+.container .finish {
+    background-color: white;
+    margin: 16rpx 0;
+    box-shadow: 0 0 5rpx #dddddd;
+    overflow: hidden;
+}
+
+.container .finish button {
+    border: none;
+    outline: none;
+    height: 100rpx;
+    line-height: 100rpx;
+}

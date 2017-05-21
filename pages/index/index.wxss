@@ -1,0 +1,13 @@
+/**index.wxss**/
+.container {
+	padding-top: 50rpx;
+}
+
+.picture {
+	text-align: center;
+	padding: 30rpx 0rpx;
+}
+
+.picture image{
+	width: 700rpx;
+}

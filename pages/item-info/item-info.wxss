@@ -1,0 +1,74 @@
+/* pages/item-info/item-info.wxss */
+.container .tab {
+    border-bottom: 1rpx solid #f7f7f7;
+}
+
+.container .tab navigator,
+.container .tab text {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 100rpx;
+    color: #cccccc;
+}
+
+.container .tab .on {
+    color: #fff76c;
+    position: relative;
+}
+
+.container .tab .on::before {
+    content: "";
+    display: block;
+    width: 160rpx;
+    height: 4rpx;
+    background-color: #fff76c;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -80rpx;
+}
+
+.container .info {
+    color: #333333;
+    font-size: 32rpx;
+    line-height: 60rpx;
+}
+
+.container .block {
+    padding: 20rpx 30rpx;
+    border-bottom: 1px solid #f7f7f7;
+    overflow: hidden;
+}
+
+.container .block .price,
+.container .block .count,
+.container .block .tips,
+.container .block .pay {
+    float: right;
+    position: relative;
+    top: 3rpx;
+}
+
+.container .block .price::before {
+    content: "￥";
+}
+
+.container .block .count::after {
+    content: "份";
+}
+
+.container .block .tips::after,
+.container .block .pay::after {
+    content: "元";
+}
+
+.container .block .remark {
+    float: left;
+    text-indent: 2em;
+}
+
+.container .block .puren {
+    display: inline-block;
+    width: 240rpx;
+}
